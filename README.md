@@ -1,3 +1,11 @@
+# Библиотеки для работы с классом
+Для работы с классом тебе потребуются следующие библиотеки: \
+1. requests
+2. json, time, os
+3. pandas
+4. traceback
+5. sqlalchemy
+Воспользулься !pip install, если их у тебя нет
 # Методы класса
 ## Основные методы
 get_token() - Первичная авторизация \
@@ -12,9 +20,9 @@ transform_contact() - Обработка контактов, сохраняет 
 transform_task() - Обработка задач, сохраняет данные в dicts_task \
 transform_pipeline() - Обработка воронок, сохраняет данные в dicts_pipeline 
 ## Методы сохранения данных
-convert_to_csv(file_name, data) - Сохранение в CSV. В кажестве параметра data указываем любой из <u>dicts_lead, dicts_contact, dicts_task, dicts_pipeline</u> \
-pssql_create_table() - Создание таблицы в PostgreSQL. В data указываем любой из списков <u> dicts_lead,dicts_contact,dicts_task,dicts_pipeline </u> \
-pssql_insert_table() - Вставка данных в PostgreSQL. В data указываем любой из списков <u> dicts_lead, dicts_contact dicts_task,dicts_pipeline </u>
+convert_to_csv(file_name, data) - Сохранение в CSV. В кажестве параметра data указываем любой из dicts_lead, dicts_contact, dicts_task, dicts_pipeline \
+pssql_create_table() - Создание таблицы в PostgreSQL. В data указываем любой из списков dicts_lead,dicts_contact,dicts_task,dicts_pipeline  \
+pssql_insert_table() - Вставка данных в PostgreSQL. В data указываем любой из списков dicts_lead, dicts_contact dicts_task,dicts_pipeline   
 
 # Config 
 ## Config для Postrgesql 
